@@ -1,0 +1,141 @@
+/* body{
+  margin: 0;
+  background-image: url("images/download.jpg");
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background: cross-fade(20%);
+} */
+
+
+/* .nav-item{
+  padding-left: 200px;
+  float:right;
+  gap:10px;
+} */
+
+
+/* Faded background */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  z-index: 0;
+  background: url('images/download.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.bg-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Faded overlay */
+  z-index: -1;
+}
+
+/* Carousel captions styling */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.card {
+      transition: all 0.3s ease;
+      color: black;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+      background-color:darkslategrey;
+      color: white;
+    }
+    .dropdown:hover{
+       background-color:darkolivegreen;
+    }
+
+.section{
+   color:white;
+   margin-top: 130px;
+  
+
+}
+.adiv li,.bdiv li,.cdiv.li{
+  
+  font-size: large;
+  padding-right: 40px;
+}
+.container-fluid{
+     color:white;
+}
+
+.container p5{
+  padding-top: 200px;
+}
+
+.card-img-top{
+  object-fit: cover;
+}
+
+.navbar-nav {
+   
+    animation: fadeInSlideUp 3.0s ease-out;
+   
+}
+
+.nav-item .nav-link {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(97, 4, 74);
+}
+
+.nav-item .nav-link:hover {
+    color: white;
+    transform: translateY(-3px);
+}
+
+.nav-item-animate::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #89d8dc;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-item-animate:hover::after {
+    width: 100%;
+}
+
+.collapse{
+  width:70%;
+  /* border: 1px solid white; */
+  gap: 50px;
+  padding-left: 250px;
+}
+
+.mp4{
+  padding-left: 90px;
+}
+.one
+{
+  width: 80%;
+  float: left;
+}
+
+h5{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+h1{
+  color:azure;
+  font-family:"italic";
+
+}
